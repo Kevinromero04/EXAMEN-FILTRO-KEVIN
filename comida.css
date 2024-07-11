@@ -322,6 +322,15 @@ a{
 a:hover{
     background-color: red;
 }
-@media (max-widht: 390px){
-    
+.alerta{
+    display: none;
+}
+@media (max-width: 1000px){
+    .alerta{
+        display: block;
+        color: red;
+    }
+    .todo{
+        display: none;
+    }
 }
