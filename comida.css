@@ -15,6 +15,15 @@ html, body{
     height: 100px;
     display: flex;
 }
+
+.home:hover{
+    height: 50px;
+    background-color: white;
+    width: 220px;
+    box-shadow: 10px 10px 10px rgb(255, 0, 0);
+
+
+}
 .menu{
     color: rgb(201, 74, 15);
     font-weight: 400;
@@ -73,6 +82,12 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#cua:hover{
+    box-shadow: 10px 10px 10px rgb(255, 0, 0);
+    width: 51%;
+    height: 31px;
+
 }
 .text-dere img{
     height: 70%;
@@ -278,6 +293,12 @@ html, body{
 
 
 }
+.cuadro:hover{
+    height: 81%;
+    width: 81%;
+    box-shadow: 10px 10px 10px white;
+
+}
 .text-cuadro{
     display: flex;
     flex-direction: column;
@@ -299,6 +320,11 @@ html, body{
     text-align: center;
     color: white;
     background-color: rgb(255, 94, 0);
+}
+#cuadro:hover{
+    width: 128px;
+    box-shadow: 10px 10px 10px rgb(255, 0, 0);
+    height: 35px;
 }
 .container-6{
     display: flex;
@@ -322,6 +348,7 @@ a{
 a:hover{
     background-color: red;
 }
+
 .alerta{
     display: none;
 }
