@@ -1,0 +1,118 @@
+@@import { url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: 'Poppins', sans-serif;
+}
+html, body{
+    margin: 0;
+    background-color: rgb(48, 67, 85);
+}
+.cabeza{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+
+}
+.navbar{
+    height: 100px;
+    display: flex;
+}
+.menu{
+    color: rgb(201, 74, 15);
+    font-weight: 400;
+    width: 50%;
+    height: 100px;
+    font-size: 1.5em;
+    align-items: center;
+    display: flex;
+    margin-left: 4%;
+    justify-content: flex-start;
+}
+.menu2{
+    color: white;
+    height: 100px;
+    width: 50%;
+    align-items: center;
+    margin-right: 3%;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+
+}
+.container{
+    display: flex;
+}
+.text-izq{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-izq h1{
+    font-size: 4em;
+    color: rgb(201, 74, 15);
+    margin: 0px;
+}
+.text-dere{
+
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 762px;
+
+}
+.texto{
+    color: white;
+}
+#cua{
+    border: rgb(201, 74, 15) solid 2px;
+    background-color: rgb(201, 74, 15);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-dere img{
+    height: 70%;
+}
+.container-2{
+    color: white;
+    display: flex;
+    height: 800px;
+    border-top: rgb(255, 94, 0) solid 4px;
+}
+.text-izq2{
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 762px;
+}
+.text-dere2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.texto2{
+    width: 32%;
+    display: flex;
+    margin-left: 90px;
+    flex-direction: column;
+    align-items: end;
+}
+.letra{
+    letter-spacing: 2px;
+}
+.letra h2{
+    font-size: 2em;
+}
+.container-3{
+    color: white;
+    display: flex;
+    height: 800px;
+    border-top: rgb(255, 94, 0) solid 4px;
+}
